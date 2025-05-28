@@ -3,7 +3,11 @@ import { BaseController } from './base.controller'
 import { AuthService } from '../services/auth.service'
 import { z } from 'zod'
 
+
+//aaaaaa
 const authService = new AuthService()
+
+const authService2 = new AuthService()
 
 const registerSchema = z.object({
   name: z.string().min(3, 'Name must be at least 3 characters'),
